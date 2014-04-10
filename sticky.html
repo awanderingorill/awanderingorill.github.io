@@ -6,36 +6,40 @@
 	<!-- stickifier -->
 	<script>
 	$(document).ready(function(){
+		var counter = 0;
 
 		function stickify(){
 			var split = $('#boring').val().split("");
 			for (i = 0; i < split.length; i++){
-				if (split.indexOf(split[i]) % 2 == 0){
+				if (counter % 2 == 0){
 					split[i] = split[i].toUpperCase();
+					counter++;
+				} else {
+					counter++;
 				}
 			}
 			$('#sticky').append("~*~*" + split.join("") + "~*~*");
 		};
 
 		$('#submit').on('click', stickify);
+
+		// TODO: add 'copy to clipboard' button
+		// http://www.htmlgoodies.com/beyond/javascript/article.php/3458851
+		
 	});
 	</script>
 
 	<meta charset="UTF-8">
 	<title>sticky caps generator</title>
 </head>
-<body>
-
+<body>		
 	<h1>sticky caps generator</h1>
-	
+
 	<!-- input -->
 	<input id="boring" type="text" placeholder="stickify">
 	<button id="submit">stickify</button>
 
 	<!-- output -->
 	<div id="sticky"></div>
-
-
-	
 </body>
 </html>
