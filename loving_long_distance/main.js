@@ -1,1 +1,3 @@
-document.getElementById("emailbox").focus();
+window.onload = function(){
+	document.getElementById("emailbox").focus();
+}
