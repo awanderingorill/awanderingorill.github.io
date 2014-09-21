@@ -2,12 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
+	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Karla:700,400italic,400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="style.css">
-	<script src="main.js"></script>
+
+	<!-- icons -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- lightbox -->
+	<link rel="stylesheet" href="vendor/bootstrap-lightbox/bootstrap-lightbox.min.css">
+	<script src="vendor/bootstrap-lightbox/bootstrap-lightbox.min.js"></script>
+
+	<!-- styles -->
+	<link rel="stylesheet" href="vendor/normalize.css">
+	<link rel="stylesheet" href="vendor/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- scripts -->
+	<script src="vendor/jquery.min.js"></script>
+	<script src="js/main.js"></script>
 	<title>Loving Long-Distance</title>
 </head>
 
@@ -16,19 +31,38 @@
 	<div class="wrapper">
 
 		<header>
-			<a href="./about.html">About</a>
+			<div id="about">About</div>
+
+			<a href="#headerVideo" id="title" data-toggle="lightbox" data-target="#lightbox">
+				<div class="loving">Loving</div>
+				<div class="smallcaps">Long-Distance</div>
+				<i class="fa fa-play-circle" id="play"></i>
+			</a>
+
+
+			<video id="video" preload="auto" data-setup="{}" webkit-playsinline="" autoplay="" src="assets/door_small.mp4" style="width: 100%;" loop="">
+			</video>
+
+			<iframe id="headerVideo" src="http://player.vimeo.com/video/105646584?title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/105646584">'Transition' Documentary</a> from <a href="http://vimeo.com/digitaldoes">Digitaldoes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
 		</header>
 
 
-		<div class="title">
-			<h1>Loving</h1>
-			<h2>Long-Distance</h2>
-		</div>
-
-		<div class="tagline">
+		<div class="tagline" id="subheader">
 			<p>An exploration of the</p>
 			<p>non-physical interactions</p>
 			<p>that make up our love lives.</p>
+		</div>
+
+		<div class="tagline" id="description">
+			<p>In the absence of physical closeness, how do you build a narrative and sustain the love that you have with someone else through just words or other snippets of communication?</p>
+
+			<p>Loving Long-Distance is a project that explores these communications through a video series and an app.</p>
+
+			<p>The videos tell the stories of two individuals and their attempts to bridge physical distances with written accounts.</p> 
+
+			<p>The app helps you, the viewer, revisit the stories and memories you shared with a loved one via emails, chat messages, photos and Facebook likes.</p>
 		</div>
 
 		<div class="signup">

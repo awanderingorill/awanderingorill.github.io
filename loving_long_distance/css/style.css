@@ -1,0 +1,62 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0px;
+  color: #000000;
+  font-size: 16pt;
+  text-align: center; }
+
+a {
+  color: #CC6699;
+  text-decoration: none; }
+
+#title {
+  position: absolute;
+  top: 300px;
+  left: 40%;
+  color: #CC6699; }
+  #title .loving {
+    font-family: 'Leckerli One', cursive;
+    font-size: 4.5em; }
+  #title .smallcaps {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 0.7em;
+    font-weight: 700;
+    top: -20px;
+    left: -20px; }
+  #title:hover {
+    color: #FFFFFF; }
+
+#play {
+  font-size: 3em; }
+
+#description {
+  display: none; }
+
+#about {
+  cursor: pointer;
+  color: #CC6699;
+  text-align: right;
+  padding: 20px; }
+
+.signup {
+  font-size: 1.3em;
+  padding-top: 20px; }
+  .signup p {
+    margin: 10px; }
+
+input {
+  border: none;
+  border-bottom: 1px solid #CC6699;
+  line-height: 2em;
+  color: #CC6699; }
+  input:focus {
+    outline: none; }
+
+.tagline {
+  display: block;
+  padding: 30px;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 14pt; }

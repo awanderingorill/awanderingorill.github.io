@@ -1,0 +1,83 @@
+// variables
+$magenta: #CC6699;
+$body-font: #000000;
+$white: #FFFFFF;
+
+body {
+	font-family: 'Karla', sans-serif;
+	margin: 0px;
+	color: $body-font;
+	font-size: 16pt;
+	text-align: center;
+}
+
+a {
+	color: $magenta;
+	text-decoration: none;
+}
+
+#title {
+	position: absolute;
+	top: 300px;
+	left: 40%;
+	color: $magenta;
+	.loving {
+		font-family: 'Leckerli One', cursive;
+		font-size: 4.5em;
+	}
+	.smallcaps {
+		position: relative;
+		text-transform: uppercase;
+		letter-spacing: 0.5em;
+		font-size: 0.7em;
+		font-weight: 700;
+		top: -20px;
+		left: -20px;
+	}
+	&:hover {
+		color: $white;
+	}
+}
+
+#play {
+	font-size: 3em;
+}
+
+#description {
+	display: none;
+}
+
+#about {
+	cursor: pointer;
+	color: $magenta;
+	text-align: right;
+	padding: 20px;
+}
+
+
+.signup {
+	font-size: 1.3em;
+	padding-top: 20px;
+	p {
+		margin: 10px;
+	}
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid $magenta;
+	line-height: 2em;
+	color: $magenta;
+	&:focus {
+		outline: none;
+	}
+}
+
+.tagline {
+	display: block;
+	padding: 30px;
+	width: 500px;
+	margin: 0 auto;
+	font-size: 14pt;
+}
+
