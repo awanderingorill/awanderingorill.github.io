@@ -1,0 +1,324 @@
+* {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative; }
+
+script,
+style,
+title {
+  display: none; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: normal; }
+
+p {
+  margin: 0; }
+
+body,
+html {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+::-webkit-input-placeholder {
+  color: #aea9a9; }
+
+:-ms-input-placeholder {
+  color: #aea9a9; }
+
+::-ms-input-placeholder {
+  color: #aea9a9; }
+
+::placeholder {
+  color: #aea9a9; }
+
+body,
+html {
+  background-color: #fafcfc;
+  color: #171717;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+h1 {
+  font-size: 22px;
+  line-height: 32px; }
+
+p {
+  font-size: 16px;
+  line-height: 24px; }
+
+a {
+  color: #171717;
+  text-decoration: none; }
+  a:hover {
+    color: #5da8ff;
+    text-decoration: underline; }
+  a:active {
+    color: #171717; }
+  a:visited {
+    color: #171717; }
+
+input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'Helvetica'; }
+
+.header {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  padding: 5vw 10vw;
+  z-index: 1000; }
+  @media (max-width: 500px) {
+    .header {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.logo {
+  height: 100px;
+  min-width: 100px;
+  background: url("./images/17th-st-logo-b.svg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.menu {
+  font-size: 18px;
+  font-family: "Lydian BT";
+  list-style-type: none; }
+  @media (max-width: 500px) {
+    .menu {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row;
+              flex-flow: row; } }
+
+.menu li {
+  padding: 0.3em; }
+  @media (max-width: 500px) {
+    .menu li {
+      padding: 0.3em; } }
+
+.index-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0px;
+  padding: 5vw 10vw; }
+
+.index-container--intro-text {
+  width: 50vw; }
+  .index-container--intro-text p {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.5; }
+
+.footer {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 10vw 5vw 10vw; }
+
+.footer img {
+  height: 70px; }
+
+body,
+html {
+  width: 100%;
+  background-color: #fff;
+  background-color: #fff7f4;
+  font-family: "Alte Haas Grotesk"; }
+
+.index-container {
+  position: relative;
+  width: 100vw; }
+
+.index-container--intro-text-mobile {
+  display: none; }
+  @media (max-width: 500px) {
+    .index-container--intro-text-mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding-top: 30vw; } }
+
+.index-container--intro-text {
+  display: inline;
+  padding-top: 8vw; }
+  @media (max-width: 500px) {
+    .index-container--intro-text {
+      display: none; } }
+  .index-container--intro-text p {
+    display: inline-block; }
+    @media (max-width: 500px) {
+      .index-container--intro-text p {
+        padding-top: 20px; } }
+  .index-container--intro-text span {
+    display: inline-block;
+    margin: 0 5px;
+    border-bottom: 2px solid #171717;
+    font-size: 23px;
+    font-family: "Lydian BT"; }
+
+.index-container--articles {
+  padding: 15vw 0; }
+
+.index-articles--fresh {
+  position: absolute;
+  height: 40px;
+  top: 85px;
+  left: -40px; }
+  @media (max-width: 500px) {
+    .index-articles--fresh {
+      display: none;
+      height: 30px;
+      top: 25px; } }
+
+.index-articles--header {
+  font-size: 23px;
+  font-family: "Lydian BT";
+  text-transform: uppercase; }
+
+.index-articles--container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70vw; }
+  @media (max-width: 500px) {
+    .index-articles--container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      width: auto;
+      text-align: center; } }
+
+.index-articles--photo {
+  display: inline-block;
+  height: auto;
+  align: right; }
+  .index-articles--photo .index-image {
+    width: auto;
+    height: 40vw; }
+    @media (max-width: 500px) {
+      .index-articles--photo .index-image {
+        height: 90vw;
+        margin: 30px; } }
+
+.index-articles--photo-label {
+  width: 300px;
+  padding: 1vw;
+  font-size: 12px;
+  font-family: "Lydian BT"; }
+
+.index-articles--article {
+  padding: 3vw 5vw 0 0; }
+  @media (max-width: 500px) {
+    .index-articles--article {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 5vw; } }
+
+.index-articles--article * {
+  font-family: "Lydian BT"; }
+
+.index-article--label {
+  font-size: 10px;
+  text-transform: uppercase; }
+
+.index-article--title {
+  max-width: 200px;
+  font-size: 18px; }
+
+.index-front-piece {
+  display: inline-block;
+  width: auto;
+  padding-top: 5vw; }
+
+.index-front-piece img {
+  width: 50vw;
+  height: auto;
+  margin-bottom: 80px; }
+
+.index-front-piece--right {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.index-front-piece--listen {
+  position: absolute;
+  height: 90px !important;
+  top: 200px;
+  right: -230px; }
+
+.index-front-piece--mobile {
+  display: none; }
+  @media (max-width: 500px) {
+    .index-front-piece--mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+
+@media (max-width: 500px) {
+  .index-front-piece--right,
+  .index-front-piece--left {
+    display: none; } }
+
+.poetry-container .index-container {
+  background-color: #c0d4d1; }
+
+.poetry-container .index-front-piece img {
+  width: 70%;
+  margin-bottom: 100px; }
