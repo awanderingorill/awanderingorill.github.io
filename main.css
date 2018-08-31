@@ -84,7 +84,7 @@ p {
   font-weight: normal;
   font-style: normal;
   font-family: 'Alte Haas Grotesk';
-  src: url("AlteHaasGrotesk.woff2") format("woff2"), url("AlteHaasGrotesk.woff") format("woff"); }
+  src: url("./fonts/AlteHaasGrotesk.woff2") format("woff2"), url("./fonts/AlteHaasGrotesk.woff") format("woff"); }
 
 body,
 html {
