@@ -38,6 +38,54 @@ h5 {
 p {
   margin: 0; }
 
+@font-face {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-BoldItalic.woff2") format("woff2"), url("./fonts/LydianBT-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Roman.woff2") format("woff2"), url("./fonts/LydianBT-Roman.woff") format("woff"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Bold.woff2") format("woff2"), url("./fonts/LydianBT-Bold.woff") format("woff"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-BoldItalic.woff2") format("woff2"), url("./fonts/LydianBT-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Italic.woff2") format("woff2"), url("./fonts/LydianBT-Italic.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Roman.woff2") format("woff2"), url("./fonts/LydianBT-Roman.woff") format("woff"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Bold.woff2") format("woff2"), url("./fonts/LydianBT-Bold.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Alte Haas Grotesk';
+  src: url("AlteHaasGrotesk.woff2") format("woff2"), url("AlteHaasGrotesk.woff") format("woff"); }
+
 body,
 html {
   -webkit-box-align: center;
@@ -123,6 +171,11 @@ body {
   background: url("./images/17th-st-logo-b-white.svg");
   background-size: contain;
   background-repeat: no-repeat; }
+
+@media (max-width: 500px) {
+  .logo,
+  .logo-white {
+    height: 80px; } }
 
 .menu {
   font-size: 18px;
@@ -265,7 +318,10 @@ html {
         height: 90vw;
         margin: 30px; } }
   .index-articles--photo .mobile-image {
-    width: 80vw; }
+    display: none; }
+    @media (max-width: 500px) {
+      .index-articles--photo .mobile-image {
+        width: 80vw; } }
 
 .index-articles--photo-label {
   width: 300px;
@@ -356,3 +412,35 @@ html {
 
 .fiction-container * {
   color: #fff; }
+
+.fiction-container .index-front-piece--right,
+.fiction-container .index-front-piece--left,
+.poetry-container .index-front-piece--right,
+.poetry-container .index-front-piece--left {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
+@media (max-width: 500px) {
+  .fiction-container .index-front-piece img {
+    width: 90vw; } }
+
+@media (max-width: 500px) {
+  .poetry-container .index-front-piece img {
+    width: 90vw; } }
+
+@media (max-width: 500px) {
+  .poetry-container .index-articles--header,
+  .fiction-container .index-articles--header {
+    visibility: hidden; } }
+
+.fiction-container a {
+  color: #fff;
+  text-decoration: none; }
+  .fiction-container a:hover {
+    color: #fff;
+    text-decoration: underline; }
+  .fiction-container a:active {
+    color: #fff; }
+  .fiction-container a:visited {
+    color: #fff; }
