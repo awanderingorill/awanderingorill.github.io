@@ -117,6 +117,13 @@ body {
   background-size: contain;
   background-repeat: no-repeat; }
 
+.logo-white {
+  height: 100px;
+  min-width: 100px;
+  background: url("./images/17th-st-logo-b-white.svg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .menu {
   font-size: 18px;
   font-family: "Lydian BT";
@@ -174,6 +181,10 @@ html {
   width: 100%;
   background-color: #fff;
   font-family: "Alte Haas Grotesk"; }
+
+@media (max-width: 500px) {
+  iframe {
+    display: none; } }
 
 .index-container {
   position: relative;
@@ -253,6 +264,8 @@ html {
       .index-articles--photo .index-image {
         height: 90vw;
         margin: 30px; } }
+  .index-articles--photo .mobile-image {
+    width: 80vw; }
 
 .index-articles--photo-label {
   width: 300px;
@@ -268,6 +281,10 @@ html {
           -ms-flex-align: center;
               align-items: center;
       padding: 5vw; } }
+
+.index-articles--article img {
+  width: 30px;
+  height: auto; }
 
 .index-articles--article * {
   font-family: "Lydian BT"; }
@@ -296,6 +313,17 @@ html {
   margin-right: auto;
   margin-left: auto; }
 
+.index-front-piece .index-articles--article {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0;
+  text-align: right; }
+
+.index-front-piece .index-articles--article img {
+  width: 30px;
+  height: auto; }
+
 .index-front-piece--listen {
   position: absolute;
   height: 90px !important;
@@ -308,16 +336,23 @@ html {
     .index-front-piece--mobile {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; } }
+      display: flex;
+      padding-bottom: 20px; } }
 
 @media (max-width: 500px) {
   .index-front-piece--right,
   .index-front-piece--left {
     display: none; } }
 
-.poetry-container .index-container {
+.poetry-container {
   background-color: #c0d4d1; }
 
 .poetry-container .index-front-piece img {
-  width: 70%;
+  width: 50vw;
   margin-bottom: 100px; }
+
+.fiction-container {
+  background-color: #002aff; }
+
+.fiction-container * {
+  color: #fff; }
