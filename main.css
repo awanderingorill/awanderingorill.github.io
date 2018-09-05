@@ -321,6 +321,7 @@ html {
     display: none; }
     @media (max-width: 500px) {
       .index-articles--photo .mobile-image {
+        display: block;
         width: 80vw; } }
 
 .index-articles--photo-label {
