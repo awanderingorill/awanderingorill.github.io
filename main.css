@@ -272,6 +272,9 @@ html {
 
 .index-container--articles {
   padding: 15vw 0; }
+  @media (max-width: 500px) {
+    .index-container--articles {
+      padding: 30vw 0; } }
 
 .index-articles--fresh {
   position: absolute;
@@ -347,7 +350,7 @@ html {
   font-family: "Lydian BT"; }
 
 .index-article--label {
-  font-size: 10px;
+  font-size: 10px !important;
   text-transform: uppercase; }
 
 .index-article--title {
@@ -355,9 +358,19 @@ html {
   font-size: 18px; }
 
 .index-front-piece {
+  -ms-flex-item-align: center;
+      align-self: center;
   display: inline-block;
-  width: auto;
+  width: 60vw;
   padding-top: 5vw; }
+  @media (max-width: 500px) {
+    .index-front-piece {
+      width: 80vw; } }
+
+.index-front-piece p {
+  padding-top: 1rem;
+  font-size: 16pt;
+  line-height: 2rem; }
 
 .index-front-piece img {
   width: 50vw;
@@ -396,11 +409,6 @@ html {
       display: flex;
       padding-bottom: 20px; } }
 
-@media (max-width: 500px) {
-  .index-front-piece--right,
-  .index-front-piece--left {
-    display: none; } }
-
 .poetry-container {
   background-color: #c0d4d1; }
 
@@ -409,7 +417,7 @@ html {
   margin-bottom: 100px; }
 
 .fiction-container {
-  background-color: #002aff; }
+  background-color: #000; }
 
 .fiction-container * {
   color: #fff; }
