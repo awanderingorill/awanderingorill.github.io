@@ -1,1 +1,455 @@
-*{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;-ms-flex-negative:0;flex-shrink:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}script,style,title{display:none}body,html{margin:0;padding:0}ul{margin:0;padding:0;list-style-type:none}h1,h2,h3,h4,h5{margin:0;font-weight:400}p{margin:0}@font-face{font-weight:700;font-style:italic;font-family:'Lydian BT';src:url(fonts/LydianBT-BoldItalic.woff2) format("woff2"),url(fonts/LydianBT-BoldItalic.woff) format("woff")}@font-face{font-weight:400;font-style:normal;font-family:'Lydian BT';src:url(fonts/LydianBT-Roman.woff2) format("woff2"),url(fonts/LydianBT-Roman.woff) format("woff")}@font-face{font-weight:700;font-style:normal;font-family:'Lydian BT';src:url(fonts/LydianBT-Bold.woff2) format("woff2"),url(fonts/LydianBT-Bold.woff) format("woff")}@font-face{font-weight:700;font-style:italic;font-family:'Lydian BT';src:url(fonts/LydianBT-BoldItalic.woff2) format("woff2"),url(fonts/LydianBT-BoldItalic.woff) format("woff")}@font-face{font-weight:400;font-style:italic;font-family:'Lydian BT';src:url(fonts/LydianBT-Italic.woff2) format("woff2"),url(fonts/LydianBT-Italic.woff) format("woff")}@font-face{font-weight:400;font-style:normal;font-family:'Lydian BT';src:url(fonts/LydianBT-Roman.woff2) format("woff2"),url(fonts/LydianBT-Roman.woff) format("woff")}@font-face{font-weight:700;font-style:normal;font-family:'Lydian BT';src:url(fonts/LydianBT-Bold.woff2) format("woff2"),url(fonts/LydianBT-Bold.woff) format("woff")}@font-face{font-weight:400;font-style:normal;font-family:'Alte Haas Grotesk';src:url(fonts/AlteHaasGrotesk.woff2) format("woff2"),url(fonts/AlteHaasGrotesk.woff) format("woff")}body,html{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}::-webkit-input-placeholder{color:#aea9a9}:-ms-input-placeholder{color:#aea9a9}::-ms-input-placeholder{color:#aea9a9}::placeholder{color:#aea9a9}body,html{background-color:#fafcfc;color:#171717;font-family:"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif}h1{font-size:22px;line-height:32px}p{font-size:16px;line-height:24px}a{color:#171717;text-decoration:none}a:hover{color:#171717;text-decoration:underline}a:active{color:#171717}a:visited{color:#171717}input{-webkit-box-sizing:border-box;box-sizing:border-box}body{font-family:Helvetica}.header{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:absolute;width:100vw;top:0;padding:5vw 10vw;z-index:1000}@media (max-width:500px){.header{-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.logo{height:100px;min-width:100px;background:url(images/17th-st-logo-b.svg);background-size:contain;background-repeat:no-repeat}.logo-white{height:100px;min-width:100px;background:url(images/17th-st-logo-b-white.svg);background-size:contain;background-repeat:no-repeat}@media (max-width:500px){.logo,.logo-white{height:80px}}.menu{font-size:18px;font-family:"Lydian BT";list-style-type:none}@media (max-width:500px){.menu{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row}}.menu li{padding:.3em}@media (max-width:500px){.menu li{padding:.3em}}.index-container{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;padding:5vw 10vw}.index-container--intro-text{width:50vw}.index-container--intro-text p{padding-top:30px;font-size:20px;line-height:1.5}.footer{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%;padding:0 10vw 5vw 10vw}.footer img{height:70px}body,html{width:100%;background-color:#fff;font-family:"Alte Haas Grotesk"}@media (max-width:500px){iframe{display:none}}.index-container{position:relative;width:100vw}.index-container--intro-text-mobile{display:none}@media (max-width:500px){.index-container--intro-text-mobile{display:-webkit-box;display:-ms-flexbox;display:flex;padding-top:30vw}}.index-container--intro-text{display:inline;padding-top:8vw}@media (max-width:500px){.index-container--intro-text{display:none}}.index-container--intro-text p{display:inline-block}@media (max-width:500px){.index-container--intro-text p{padding-top:20px}}.index-container--intro-text span{display:inline-block;margin:0 5px;border-bottom:2px solid #171717;font-size:23px;font-family:"Lydian BT"}.index-container--articles{padding:15vw 0}@media (max-width:500px){.index-container--articles{padding:30vw 0}}.index-articles--fresh{position:absolute;height:40px;top:85px;left:-40px}@media (max-width:500px){.index-articles--fresh{display:none;height:30px;top:25px}}.index-articles--header{font-size:23px;font-family:"Lydian BT";text-transform:uppercase}.index-articles--container{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-ms-flex-pack:distribute;justify-content:space-around;width:70vw}@media (max-width:500px){.index-articles--container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;width:auto;text-align:center}}.index-articles--photo{display:inline-block;height:auto;align:right}.index-articles--photo .index-image{width:auto;height:40vw}@media (max-width:500px){.index-articles--photo .index-image{height:90vw;margin:30px}}.index-articles--photo .mobile-image{display:none}@media (max-width:500px){.index-articles--photo .mobile-image{display:block;width:80vw}}.index-articles--photo-label{width:300px;padding:1vw;font-size:12px;font-family:"Lydian BT"}.index-articles--article{padding:3vw 5vw 0 0}@media (max-width:500px){.index-articles--article{-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:5vw}}.index-articles--article img{width:30px;height:auto}.index-articles--article *{font-family:"Lydian BT"}.index-article--label{font-size:10px!important;text-transform:uppercase}.index-article--title{max-width:200px;font-size:18px}.index-front-piece{-ms-flex-item-align:center;align-self:center;display:inline-block;width:60vw;padding-top:5vw}@media (max-width:500px){.index-front-piece{width:80vw}}.index-front-piece p{padding-top:1rem;font-size:16pt;line-height:2rem}.index-front-piece img{width:50vw;height:auto;margin-bottom:80px}.index-front-piece--right{display:block;width:50%;margin-right:auto;margin-left:auto}.index-front-piece .index-articles--article{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;padding:0;text-align:right}.index-front-piece .index-articles--article img{width:30px;height:auto}.index-front-piece--listen{position:absolute;height:90px!important;top:200px;right:-230px}.index-front-piece--mobile{display:none}@media (max-width:500px){.index-front-piece--mobile{display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:20px}}.poetry-container{background-color:#c0d4d1}.poetry-container .index-front-piece img{width:50vw;margin-bottom:100px}.fiction-container{background-color:#000}.fiction-container *{color:#fff}.fiction-container .index-front-piece--left,.fiction-container .index-front-piece--right,.poetry-container .index-front-piece--left,.poetry-container .index-front-piece--right{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}@media (max-width:500px){.fiction-container .index-front-piece img{width:90vw}}@media (max-width:500px){.poetry-container .index-front-piece img{width:90vw}}@media (max-width:500px){.fiction-container .index-articles--header,.poetry-container .index-articles--header{visibility:hidden}}.fiction-container a{color:#fff;text-decoration:none}.fiction-container a:hover{color:#fff;text-decoration:underline}.fiction-container a:active{color:#fff}.fiction-container a:visited{color:#fff}
+* {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative; }
+
+script,
+style,
+title {
+  display: none; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: normal; }
+
+p {
+  margin: 0; }
+
+@font-face {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-BoldItalic.woff2") format("woff2"), url("./fonts/LydianBT-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Roman.woff2") format("woff2"), url("./fonts/LydianBT-Roman.woff") format("woff"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Bold.woff2") format("woff2"), url("./fonts/LydianBT-Bold.woff") format("woff"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-BoldItalic.woff2") format("woff2"), url("./fonts/LydianBT-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Italic.woff2") format("woff2"), url("./fonts/LydianBT-Italic.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Roman.woff2") format("woff2"), url("./fonts/LydianBT-Roman.woff") format("woff"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Lydian BT';
+  src: url("./fonts/LydianBT-Bold.woff2") format("woff2"), url("./fonts/LydianBT-Bold.woff") format("woff"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Alte Haas Grotesk';
+  src: url("./fonts/AlteHaasGrotesk.woff2") format("woff2"), url("./fonts/AlteHaasGrotesk.woff") format("woff"); }
+
+body,
+html {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+::-webkit-input-placeholder {
+  color: #aea9a9; }
+
+:-ms-input-placeholder {
+  color: #aea9a9; }
+
+::-ms-input-placeholder {
+  color: #aea9a9; }
+
+::placeholder {
+  color: #aea9a9; }
+
+body,
+html {
+  background-color: #fafcfc;
+  color: #171717;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+h1 {
+  font-size: 22px;
+  line-height: 32px; }
+
+p {
+  font-size: 16px;
+  line-height: 24px; }
+
+a {
+  color: #171717;
+  text-decoration: none; }
+  a:hover {
+    color: #171717;
+    text-decoration: underline; }
+  a:active {
+    color: #171717; }
+  a:visited {
+    color: #171717; }
+
+input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'Helvetica'; }
+
+.header {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  padding: 5vw 10vw;
+  z-index: 1000; }
+  @media (max-width: 500px) {
+    .header {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.logo {
+  height: 100px;
+  min-width: 100px;
+  background: url("./images/17th-st-logo-b.svg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.logo-white {
+  height: 100px;
+  min-width: 100px;
+  background: url("./images/17th-st-logo-b-white.svg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+@media (max-width: 500px) {
+  .logo,
+  .logo-white {
+    height: 80px; } }
+
+.menu {
+  font-size: 18px;
+  font-family: "Lydian BT";
+  list-style-type: none; }
+  @media (max-width: 500px) {
+    .menu {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row;
+              flex-flow: row; } }
+
+.menu li {
+  padding: 0.3em; }
+  @media (max-width: 500px) {
+    .menu li {
+      padding: 0.3em; } }
+
+.index-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0px;
+  padding: 5vw 10vw; }
+
+.index-container--intro-text {
+  width: 50vw; }
+  .index-container--intro-text p {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.5; }
+
+.footer {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 10vw 5vw 10vw; }
+
+.footer img {
+  height: 70px; }
+
+body,
+html {
+  width: 100%;
+  background-color: #fff;
+  font-family: "Alte Haas Grotesk"; }
+
+@media (max-width: 500px) {
+  iframe {
+    display: none; } }
+
+.index-container {
+  position: relative;
+  width: 100vw; }
+
+.index-container--intro-text-mobile {
+  display: none; }
+  @media (max-width: 500px) {
+    .index-container--intro-text-mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding-top: 30vw; } }
+
+.index-container--intro-text {
+  display: inline;
+  padding-top: 8vw; }
+  @media (max-width: 500px) {
+    .index-container--intro-text {
+      display: none; } }
+  .index-container--intro-text p {
+    display: inline-block; }
+    @media (max-width: 500px) {
+      .index-container--intro-text p {
+        padding-top: 20px; } }
+  .index-container--intro-text span {
+    display: inline-block;
+    margin: 0 5px;
+    border-bottom: 2px solid #171717;
+    font-size: 23px;
+    font-family: "Lydian BT"; }
+
+.index-container--articles {
+  padding: 15vw 0; }
+  @media (max-width: 500px) {
+    .index-container--articles {
+      padding: 30vw 0; } }
+
+.index-articles--fresh {
+  position: absolute;
+  height: 40px;
+  top: 85px;
+  left: -40px; }
+  @media (max-width: 500px) {
+    .index-articles--fresh {
+      display: none;
+      height: 30px;
+      top: 25px; } }
+
+.index-articles--header {
+  font-size: 23px;
+  font-family: "Lydian BT";
+  text-transform: uppercase; }
+
+.index-articles--container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70vw; }
+  @media (max-width: 500px) {
+    .index-articles--container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      width: auto;
+      text-align: center; } }
+
+.index-articles--photo {
+  display: inline-block;
+  height: auto;
+  align: right; }
+  .index-articles--photo .index-image {
+    width: auto;
+    height: 40vw; }
+    @media (max-width: 500px) {
+      .index-articles--photo .index-image {
+        height: 90vw;
+        margin: 30px; } }
+  .index-articles--photo .mobile-image {
+    display: none; }
+    @media (max-width: 500px) {
+      .index-articles--photo .mobile-image {
+        display: block;
+        width: 80vw; } }
+
+.index-articles--photo-label {
+  width: 300px;
+  padding: 1vw;
+  font-size: 12px;
+  font-family: "Lydian BT"; }
+
+.index-articles--article {
+  padding: 3vw 5vw 0 0; }
+  @media (max-width: 500px) {
+    .index-articles--article {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 5vw; } }
+
+.index-articles--article img {
+  width: 30px;
+  height: auto; }
+
+.index-articles--article * {
+  font-family: "Lydian BT"; }
+
+.index-article--label {
+  font-size: 10px !important;
+  text-transform: uppercase; }
+
+.index-article--title {
+  max-width: 200px;
+  font-size: 18px; }
+
+.index-front-piece {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: inline-block;
+  width: 60vw;
+  padding-top: 5vw; }
+  @media (max-width: 500px) {
+    .index-front-piece {
+      width: 80vw; } }
+
+.index-front-piece p {
+  padding-top: 1rem;
+  font-size: 16pt;
+  line-height: 2rem; }
+
+.index-front-piece img {
+  width: 50vw;
+  height: auto;
+  margin-bottom: 80px; }
+
+.index-front-piece--right {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.index-front-piece .index-articles--article {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0;
+  text-align: right; }
+
+.index-front-piece .index-articles--article img {
+  width: 30px;
+  height: auto; }
+
+.index-front-piece--listen {
+  position: absolute;
+  height: 90px !important;
+  top: 200px;
+  right: -230px; }
+
+.index-front-piece--mobile {
+  display: none; }
+  @media (max-width: 500px) {
+    .index-front-piece--mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding-bottom: 20px; } }
+
+.poetry-container {
+  background-color: #c0d4d1; }
+
+.poetry-container .index-front-piece img {
+  width: 50vw;
+  margin-bottom: 100px; }
+
+.fiction-container {
+  background-color: #000; }
+
+.fiction-container * {
+  color: #fff; }
+
+.fiction-container .index-front-piece--right,
+.fiction-container .index-front-piece--left,
+.poetry-container .index-front-piece--right,
+.poetry-container .index-front-piece--left {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
+@media (max-width: 500px) {
+  .fiction-container .index-front-piece img {
+    width: 90vw; } }
+
+@media (max-width: 500px) {
+  .poetry-container .index-front-piece img {
+    width: 90vw; } }
+
+@media (max-width: 500px) {
+  .poetry-container .index-articles--header,
+  .fiction-container .index-articles--header {
+    visibility: hidden; } }
+
+.fiction-container a {
+  color: #fff;
+  text-decoration: none; }
+  .fiction-container a:hover {
+    color: #fff;
+    text-decoration: underline; }
+  .fiction-container a:active {
+    color: #fff; }
+  .fiction-container a:visited {
+    color: #fff; }
